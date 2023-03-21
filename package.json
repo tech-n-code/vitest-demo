@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "vitest": "^0.29.2"
+  },
+  "name": "vitest-demo",
+  "description": "",
+  "version": "1.0.0",
+  "type":"module",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
