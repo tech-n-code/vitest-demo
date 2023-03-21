@@ -1,8 +1,9 @@
 import { describe, expect, test} from "vitest";
-import sum from "app.js";
+// import sum from "app.js";
+import reverseStr from "app.js";
 
-describe("Test case: adding two numbers", function() {
-    test("sum", function() {
-        expect(sum(1,1)).toEqual(2);
+describe("Test case: reversing a string", function() {
+    test("reverseStr", function() {
+        expect(reverseStr("Hello")).toEqual("olleH");
     })
 })

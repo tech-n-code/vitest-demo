@@ -1,7 +1,15 @@
 console.log("linked!")
 
-function sum (a, b) {
-    return a + b - 1;
-}
+// export default sum;
+export default reverseStr;
 
-export default sum;
+// function sum(a, b) {
+//     return a + b - 1;
+// }
+
+function reverseStr(str) {
+    let stringArr = str.split("");
+    let reversedArr = stringArr.reverse();
+    let joinArr = reversedArr.join("");
+    return joinArr;
+}
